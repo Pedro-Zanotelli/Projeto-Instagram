@@ -1,0 +1,217 @@
+body{
+    background-color: #fafafa;
+}
+.topo{
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    height: 54px;
+    border-bottom: 1px solid #DBDBDB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.conteudo-topo{
+    width: 935px;
+    height: 54px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topo img{
+    display: flex;
+    width: 103px;
+    height: 29px;
+}
+
+.icones{
+    width: 145px;
+    height: 22px;
+    justify-content: space-between;
+    display: flex;
+}
+
+ion-icon{
+    font-size:22px;
+    cursor: pointer;
+}
+
+.conteudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: flex-start
+}
+
+.stories-e-posts{
+    flex-direction: column;
+}
+
+.caixa-stories{
+    background-color: #ffffff;
+    width: 614px;
+    height: 118px;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    margin-top: 88px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stories{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.stories-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 14px;
+    text-align: center;
+}
+
+.stories-item img{
+    height: 66px;
+    width: 66px;
+    border-radius: 33px;
+}
+
+.stories-item span{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3px;
+}
+
+.coluna-posts{
+    background-color: #ffffff;
+    width: 614px;
+    height: 717px;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    margin-top: 24px;
+    margin-bottom: 60px;
+}
+
+.perfil-post{
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.perfil-post span{
+    font-family:"Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.perfil-post img{
+    height: 32px;
+    width: 32px;
+    margin-right: 15px;
+    margin-left: 16px;
+    border-radius: 16px;
+}
+
+.publicacao img{
+    width: 612px;
+    height: 612px;
+}
+
+.interacoes{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botoes-esquerda{
+    width: 90px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 17px;
+}
+
+.botoes-direita{
+    margin-right: 17px;
+}
+
+.side-bar{
+    width: 293px;
+    height: 100%;
+    margin-top: 88px;
+    margin-left: 28px;
+}
+
+.perfil{
+    margin-top: 23px;
+    display: flex;
+    align-items: center;
+}
+
+.perfil p{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.perfil span{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #8E8E8E;
+}
+
+.perfil img{
+    width: 56px;
+    height: 56px;
+    border-radius: 28px;
+    margin-right: 18px;
+}
+
+.sugestoes p{
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #8E8E8E;
+}
+
+.sugestoes img{
+    width: 32px;
+    height: 32px;
+    border-radius: 28px;
+    margin-right: 13px;
+    display: flex;
+}
+
+.contas{
+    height: 32px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.contas span{
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #139EF2;
+    cursor: pointer; 
+    margin-left: auto;
+}

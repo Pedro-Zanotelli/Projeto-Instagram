@@ -1,5 +1,6 @@
 body{
     background-color: #fafafa;
+    overflow-x: hidden;
 }
 .topo{
     background-color: rgb(255, 255, 255);
@@ -17,6 +18,7 @@ body{
 
 .conteudo-topo{
     width: 935px;
+    margin: 0 20px;
     height: 54px;
     display: flex;
     justify-content: space-between;
@@ -34,18 +36,21 @@ body{
     height: 22px;
     justify-content: space-between;
     display: flex;
+    color: black;
 }
 
 ion-icon{
+    color: black;
     font-size:22px;
     cursor: pointer;
 }
 
 .conteudo{
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    align-items: flex-start
+    align-items: flex-start;
 }
 
 .stories-e-posts{
@@ -127,13 +132,13 @@ ion-icon{
 .publicacao{
     width: 612px;
     height: 612px;
+    background-color: black;
 }
 
 .publicacao img{
     width: 100%;
     height: 100%;
     object-fit: contain;
-    background-color: black;
 }
 
 .interacoes{
@@ -187,6 +192,9 @@ ion-icon{
     margin-right: 18px;
 }
 
+.sugestoes{
+}
+
 .sugestoes p{
     font-size: 12px;
     font-family: "Roboto", sans-serif;
@@ -221,4 +229,85 @@ ion-icon{
     color: #139EF2;
     cursor: pointer; 
     margin-left: auto;
+}
+
+.barra-inferior{
+    display: none;
+}
+
+@media (max-width: 935px) {
+    .side-bar{
+        display: none;
+    }
+
+    .conteudo-topo{
+        width: calc(100vw - 50px)
+    }
+
+    .stories-e-posts{
+        width: 100vw;
+        align-items: center;
+        display: flex;
+    }
+
+    .caixa-stories{
+        display: flex;
+        align-items: center;
+    }
+
+    .conteudo{
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media (max-width: 614px) {
+    .conteudo-topo{
+        justify-content: center;
+    }
+
+    .icones{
+        display: none;
+    }
+
+    .botoes-direita{
+        margin-right: 30px;
+    }
+
+    .caixa-stories{
+        width: 100vw;
+        background-color:#fafafa ;
+        border: none;
+        margin: none;
+        margin-top: 55px;
+    }
+
+    .coluna-posts{
+        width: 100vw;
+        margin-top: 0px;
+    }
+
+    .publicacao{
+        width: 100%;
+    }
+
+    .barra-inferior{
+        display: block;
+        width: 100vw;
+        height: 50px;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+        background-color: white;
+        border-top: 1px solid #DBDBDB;
+    }
+
+    .icones-barra{
+        width: 100vw;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
 }
